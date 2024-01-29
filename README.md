@@ -25,9 +25,4 @@ Q.S. Automation is a HTML-based web interface that allows users to interact with
 - Must have a Admin* social media account(s)
 
 
-## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/automation.git
