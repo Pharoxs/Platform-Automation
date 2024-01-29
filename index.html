@@ -78,16 +78,17 @@
         aside {
             background-color: #4285f4; /* Google Blue for sidebar */
             color: #fff;
-            padding: 40px;
+            padding: 20px; /* Adjusted padding for Explore More section */
             margin: 0;
             text-align: center;
             display: flex;
-            flex-direction: column;
+            flex-direction: row; /* Align links horizontally */
+            justify-content: center;
             align-items: center;
         }
 
         aside h2 {
-            margin-bottom: 10px; /* Adjust the space between caption and links */
+            margin-right: 10px; /* Adjusted space between caption and links */
         }
 
         aside a {
@@ -146,10 +147,14 @@
     <aside>
         <h2>Explore More</h2>
         <a href="#">Articles</a>
+        <span> | </span>
         <a href="#">LinkedIn Group</a>
-        <a href="#">Instagram</a>
         <!-- Add more links as needed -->
     </aside>
 
     <footer>
-        <h5>&copy; 2024 Quantum Synergi. All rights reserved.</
+        <h5>&copy; 2024 Quantum Synergi. All rights reserved.</h5>
+    </footer>
+</body>
+
+</html>
