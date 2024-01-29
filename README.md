@@ -7,7 +7,7 @@ Web interface for interacting with various API’s
 
 ## Overview
 
-Q.S. Automation is a HTML-based web interface that allows users to interact with various API for performing various actions such as automating profile interactions, connecting with others, and posting updates. The website aims to provide both non-technical and technically proficient users a user-friendly interface for automating and managing media platforms.
+Q.S. Automation is a HTML-based web interface that allows users to interact with various API for performing various actions such as automating profile interactions, connecting with others, and posting updates. The website aims to provide both non-technical and technically proficient users a user-friendly interface for automating and managing media platforms. There will be links at the bottom to connect with Quantum Synergi's Leadership Hub and weekly article postings.
 
 ### Disclaimer
 
