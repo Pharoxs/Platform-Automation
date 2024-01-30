@@ -1,0 +1,207 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Synergi | Automation</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* (Existing styles remain unchanged) */
+
+        body {
+            background-color: #f8f8f8; /* Light Grey background */
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.3); /* Dark background for the header */
+            color: #FFF; /* White text color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: #4285f4; /* Google Blue for navigation */
+            padding: 13px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline; /* Align items at the baseline */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            flex: 1.5; /* Equal spacing for all buttons */
+        }
+
+        nav .share-btn {
+            background-color: #4285f4; /* Google Blue */
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #fff;
+            flex: 1.5; /* Equal spacing for all buttons */
+            align-items: baseline; /* Align items at the baseline */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section#actions {
+            background-color: #fff; /* White background for actions section */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section#results {
+            background-color: #fff; /* White background for results section */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section#articles {
+            background-color: #fff; /* White background for articles section */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-x: auto; /* Enable horizontal scrolling */
+            white-space: softrap; /* Prevent content from wrapping */
+        }
+
+        section#articles img {
+            width: 200px; /* Set the width of each article image */
+            margin-right: 20px; /* Adjust space between articles */
+        }
+
+        aside {
+            background-color: #4285f4; /* Google Blue for sidebar */
+            color: #fff;
+            padding: 30px; /* Adjusted padding for Explore More section */
+            margin: 1;
+            text-align: center;
+            display: fixed;
+            flex-direction: row; /* Align links horizontally */
+            justify-content: center;
+            align-items: center;
+        }
+
+        aside h2 {
+            margin-right: 10px; /* Adjusted space between caption and links */
+        }
+
+        aside a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: rgba(51, 51, 51, 0.3); /* Grey transparent background for the footer */
+            color: #ccc; /* Grey text color */
+            padding: 10px; /* Adjusted padding for a thinner footer */
+            position: ;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Styles for the privacy policy button */
+        .privacy-policy-btn {
+            background-color: #4285f4; /* Google Blue */
+            color: #fff;
+            padding: 5px 10px; /* Adjusted padding for a smaller button */
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://i.ibb.co/JvyYJLS/quantum-synergi-logo.jpg" alt="Quantum Synergi Logo">
+        <h1>Quantum Synergi | Automation</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <div class="share-btn" onclick="share()">Share</div>
+    </nav>
+
+    <main>
+        <section id="actions">
+            <h2>Perform Social Media Actions</h2>
+            <form id="socialMediaForm">
+                <label for="platform">Select a platform:</label>
+                <select id="platform" name="platform" required>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="instagram">Instagram</option>
+                    <!-- Add more options as needed -->
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="results">
+            <h2>Results</h2>
+            <!-- Display results or status here -->
+            <div id="status"></div>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Explore More</h2>
+        
+        <span>
+        <p><a href="https://linkedin.com/company/quantum-synergi">
+        <img src="https://img.shields.io/badge/Quantum-Synergi-Green" alt="Platform">
+       </a></p>
+      </span>
+        <span>
+        <p><a href="https://www.linkedin.com/groups/12952666/">
+        <img src="https://img.shields.io/badge/Quantum-Insights-yellow" alt="Platform">
+        </a></p>
+        </span>
+        <!-- Add more links as needed -->
+    <p> 
+    </aside>
+<section id="articles">
+            <h2>Latest Articles on LinkedIn</h2>
+     
+</p>
+            <!-- Add content to display articles here -->
+            
+            <!-- Add more images as needed -->
+        </section>
+    <footer>
+        <h5>&copy; 2024 Quantum Synergi. All rights reserved.</h5>
+        <!-- Privacy Policy button -->
+        <a href="https://ibb.co/nj1GFJF" target="_blank" class="privacy-policy-btn">Privacy Policy</a>
+    </footer>
+</body>
+
+</html>
