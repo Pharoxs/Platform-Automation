@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Compiled files
+*.log
+*.sqlite
+*.sqlite3
+*.class
+*.war
+*.ear
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Local development environment files
+.env
+
+# Build artifacts
+/dist/
+
+# Dependency files
+package-lock.json
+yarn.lock
+
+# Ignore compiled files from various programming languages
+*.pyc
+*.pyo
+*.class
+*.dll
+*.exe
+
+# Logs
+*.log
