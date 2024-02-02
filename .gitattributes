@@ -1,0 +1,7 @@
+# Set the default behavior for text files
+* text=auto
+
+# Explicitly declare files that are binary and should not be merged
+*.png binary
+*.jpg binary
+*.gif binary
